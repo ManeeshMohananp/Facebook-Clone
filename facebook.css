@@ -1,0 +1,508 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header_left img {
+    width: 50px;
+    cursor: pointer;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 5px 8px -9px rgba(0, 0, 0, 0.75);
+    padding: 10px 20px 10px 20px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header_left {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+
+}
+
+.header_input {
+    display: flex;
+    background-color: whitesmoke;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    align-items: center;
+    margin-left: 10px;
+
+
+
+}
+
+.header_input input {
+    border: none;
+    outline: none;
+    font-size: 13px;
+    padding-left: 10px;
+    background-color: whitesmoke;
+
+}
+
+.header_middle {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    
+   
+}
+.header_options {
+    display: flex;
+    padding: 0 30px;
+    align-items: center;
+    height: 80px;
+    
+}
+
+
+.header_options .material-symbols-outlined {
+    font-size: 45px;
+    color: gray;
+    padding-bottom: 15px;
+    
+}
+.header_options:hover .material-symbols-outlined {
+    color: rgb(46, 46, 216);
+    cursor: pointer;
+    border-bottom: 3px  solid rgb(46, 46, 216);
+   
+  
+}
+
+.header_options .active {
+    color: rgb(46, 46, 216);
+  
+}
+
+.header_options:hover {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    
+    
+}
+
+.header_right {
+    display: flex;
+    align-items: center;
+    
+}
+
+.header_profile {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+
+.header_profile img {
+    width: 40px;
+    margin-right: 20px;
+}
+
+.header_icons {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    
+}
+.header_icons span {
+    margin-right: 10px;
+    padding-right: 20px;
+    color: gray;
+}
+
+
+/* sidebar */
+.side_bar {
+flex: 0.7;
+
+}
+.sidebar_row {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    height: 50px;
+   
+    
+    
+
+}
+.sidebar_row:hover {
+    background-color: lightgray;
+    border-radius: 10px;
+    
+   
+
+}
+
+.sidebar_row h4 {
+    padding-left: 20px;
+    padding-right: 10px;
+    
+}
+
+.sidebar_row .material-symbols-outlined {
+    padding-left: 10px;
+    font-size: xx-large;
+    color: rgb(46, 46, 216);
+}
+.side_bar .header_profile {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    cursor: pointer;
+    margin-top: 30px;
+    
+}
+
+/* reel section */
+
+.feed {
+    flex: 1;
+    margin-bottom: 50px;
+    
+    
+    
+}
+.story_reel {
+    display: flex;
+
+
+}
+.story {
+    background-image: url('panthar.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 120px;
+    height: 220px;
+    padding-right: 250px;
+    margin-right: 15px;
+    box-shadow: 0px 5px 17px -7px rgba(0, 0, 0, 0.75);
+    transition: transform 100ms ease-in;
+    margin-top: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+   
+}
+.story1 {
+    background-image: url('2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 120px;
+    height: 220px;
+    padding-right: 250px;
+    margin-right: 15px;
+    box-shadow: 0px 5px 17px -7px rgba(0, 0, 0, 0.75);
+    transition: transform 100ms ease-in;
+    margin-top: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.story2 {
+    background-image: url('3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 120px;
+    height: 220px;
+    padding-right: 250px;
+    margin-right: 15px;
+    box-shadow: 0px 5px 17px -7px rgba(0, 0, 0, 0.75);
+    transition: transform 100ms ease-in;
+    margin-top: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.story3 {
+    background-image: url('4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 120px;
+    height: 220px;
+    padding-right: 250px;
+    margin-right: 15px;
+    box-shadow: 0px 5px 17px -7px rgba(0, 0, 0, 0.75);
+    transition: transform 100ms ease-in;
+    margin-top: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.story4 {
+    background-image: url('R.jfif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 120px;
+    height: 220px;
+    padding-right: 250px;
+    margin-right: 15px;
+    box-shadow: 0px 5px 17px -7px rgba(0, 0, 0, 0.75);
+    transition: transform 100ms ease-in;
+    margin-top: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.story:hover {
+    transform: scale(1.07);
+}
+
+.story1:hover {
+    transform: scale(1.07);
+}
+
+.story2:hover {
+    transform: scale(1.07);
+}
+
+.story3:hover {
+    transform: scale(1.07);
+}
+.story4:hover {
+    transform: scale(1.07);
+}
+.avathar {
+    width: 40px;
+   margin: 10px;
+}
+.story h4 {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+}
+.story1 h4 {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+}
+.story2 h4 {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+}
+
+.story3 h4 {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+}
+.story4 h4 {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+}
+
+.main_body {
+    display: flex;
+    background-color: whitesmoke;
+    
+
+}
+
+/* messgenger section */
+
+.messenger {
+    box-shadow: 0 5px 8px -9px rgba(0, 0, 0, 0.75);
+    margin-top: 25px;
+    background-color: white;
+    border-radius: 25px;
+    padding: 25px;
+}
+
+.messenger_top {
+    display: flex;
+    align-items: center;
+    border-bottom:1px solid lightgray ;
+    
+
+}
+
+.form {
+    width: 100%;
+    background-color:whitesmoke;
+    border-radius: 20px;
+    margin-left: 15px;
+    height:45px;
+    
+
+}
+.messenger_input {
+    border: none;
+    background-color: whitesmoke;
+    outline: none;
+    padding-left: 25px;
+    font-size: 18px;
+    border-radius: 25px;
+    width: 100%;
+    padding-top: 12px;    
+   
+}
+
+.messenger_bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+ 
+.messenger_options {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding: 30px;
+    cursor: pointer;
+    
+}
+
+.messenger_options .material-symbols-outlined {
+    margin-right: 15px;
+    font-size: 35px;
+    padding-bottom: 10px;
+
+}
+
+.messenger_options:hover .material-symbols-outlined {
+    color: red;
+    border-bottom: 2px solid red;
+} 
+
+.messenger_options:hover {
+    background-color: whitesmoke;
+    border-radius: 20px;    
+}
+
+.messenger_options h4 {
+    color: gray;
+    font-size: 18px;
+    
+}
+.messenger_options:hover h4 {
+    color: black;
+}
+
+/* post section */
+
+.post {
+    box-shadow: 0 5px 8px -9px rgba(0, 0, 0, 0.75);
+    margin-top: 25px;
+    background-color: white;
+    border-radius: 25px;
+    padding: 25px;
+    width: 100%
+    
+}
+
+.post_top {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    
+}
+.post_top img{
+    
+    padding-bottom:10px;
+    cursor: pointer;
+}
+
+
+.post_top_info {
+    margin-left: 12px;
+    
+
+}
+.post_top_info h4 {
+    padding-bottom: 5px;
+    font-size: medium;
+    cursor: pointer;
+}
+
+.post_top_info p {
+    color: gray;
+    font-size: 13px;
+}
+
+.post_bottom {
+    border-bottom: 1px solid lightgray;
+}
+.post_bottom img {
+    width: 1250px;
+    align-items: center;
+    
+    
+}
+.post_bottom_options {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 15px 10px;
+}
+.post_options {
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+    height: 40px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+    
+}
+
+.post_options .material-symbols-outlined {
+    font-size: x-large;
+    padding-right: 15px;
+    
+}
+
+.post_options:hover .material-symbols-outlined {
+    color: rgb(51, 51, 233);
+
+}
+
+.post_options:hover  {
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+
+.post_options p {
+    color: gray;
+
+}
+
+.post_options:hover p {
+    color: black;
+}
+
+.widgets {
+    margin-top: 20px;
+    flex: 0.33;
+}
+
+
